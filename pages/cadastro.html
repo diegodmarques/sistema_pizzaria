@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Cadastro Usuário</title>
+</head>
+
+<body class="container_principal">
+
+    <div class="flex-row">
+        <img class="imagemLogo" src="../images/logo.png" alt="">
+
+        <p class="bemvindo">Registre-se!</p>
+        <div class="container">
+            <form method="POST" action="cadastro.php">
+                <input id="login" type="text" name="nome" placeholder="Nome"><br/>
+                <input id="login" type="text" name="telefone" placeholder="Telefone" minlength="11" maxlength="15"><br>
+                <input id="login" type="text" name="endereco" placeholder="Endereço"><br>
+                <input id="senha" type="password" name="senha" placeholder="Senha"><br><br>
+
+                <div id="enviar">
+                    <input type="submit" class="botao" value="Cadastrar" id="cadastrar" name="cadastrar">
+                    <a href="../index.html">Já é cadastrado?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

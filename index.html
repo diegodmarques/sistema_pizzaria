@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+</head>
+
+<body class="container_principal">
+    <div class="flex-row">
+        <img class="imagemLogoLogin" src="./images/logo2.png" alt="">
+        <div>
+            <div class="container">
+                <form action="./pages/login.php" method="POST">
+                    <input id="login" type="text" placeholder="Username" name="login"><br/>
+                    <input id="senha" type="password" placeholder="Password" name="senha"><br><br>
+                    <div id="enviar">
+                        <input id="entrar" type="submit" class="botao" value="Login" name="entrar">
+                        <a href="./pages/cadastro.html">Não tem uma conta?</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
